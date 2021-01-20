@@ -1,0 +1,25 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "virtual_pet_project",
+  "main": "index.js",
+  "scripts": {
+    "test": "'jest'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ratalay/virtual-pet.git"
+  },
+  "keywords": [
+    "pet"
+  ],
+  "author": "AtalayR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratalay/virtual-pet/issues"
+  },
+  "homepage": "https://github.com/ratalay/virtual-pet#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
