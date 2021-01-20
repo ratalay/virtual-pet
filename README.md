@@ -1,6 +1,7 @@
 Virtual Pet: This is a virtual pet software allowing you to grow your virtual JS pet that imitataes the behaviors of a regular pet. Briefly, it feels hungry, needs to be walked to keep fit and ages. You can also talk to your pet to see if it needs feeding or walking. Just like in real life, if your pet gets too hungry or unfit, it will die. Otherwise, it'll die when it gets to 30 days old.
 
 - How to grow a pet?
+
 1- Create a new pet using pet() function.
 - eg -> const Guli = new pet('Guli');
 
