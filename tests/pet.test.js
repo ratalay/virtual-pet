@@ -16,3 +16,11 @@ describe('constructor', () => {
       });
     });
   });
+
+  describe('growUp', () => {
+    it('it increases the age of the given pet by 1*', () => {
+        let Fida = new Pet('Fida');
+        Fida.growUp();
+        expect(Fida.age).toBe(1);
+    });
+});

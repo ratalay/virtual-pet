@@ -4,6 +4,9 @@ function Pet(name) {
     this.hunger = 0,
     this.fitness = 10
 }
+Pet.prototype.growUp = function (agingBy = 1) {
+    this.age = this.age + agingBy
+}
 
 
  
