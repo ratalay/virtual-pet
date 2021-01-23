@@ -4,7 +4,7 @@
   "description": "virtual_pet_project",
   "main": "index.js",
   "scripts": {
-    "test": "'jest'"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
