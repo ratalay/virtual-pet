@@ -33,7 +33,7 @@ describe('constructor', () => {
     });
   });
 
-  describe('getting older and unhealthier', () => {
+  describe('growUp', () => {
     it('increases the hunger and decreases the fitness of the pet as it gets older' , () => {
       const pet = new Pet('Fido');
       pet.growUp();
@@ -41,3 +41,24 @@ describe('constructor', () => {
       expect(pet.fitness).toEqual(7);
     })
   })
+
+  describe('walk', () => {
+    it ('increases the fitness by 4 up to 10', () =>{
+      const pet = new Pet('Fido')
+      pet.fitness = 5
+      pet.walk();
+      expect(pet.fitness).toEqual(9);
+      pet.fitness = 7;
+      pet.walk();
+      expect(pet.fitness).toEqual(10);
+    })
+})
+
+describe('feed', () => {
+ it('feeds the pet to decrease its hunger by 3 units', () => {
+  const bold = new Pet('bold');
+  bold.hunger = 5;
+  bold.feed();
+ expect(bold.hunger).toEqual(2);
+})
+})
