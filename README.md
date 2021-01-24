@@ -2,8 +2,8 @@ Virtual Pet: This is a virtual pet app allowing you to grow your virtual JS pet 
 
 How to grow a pet?
 
-1- Create a new pet using pet() function.
-- eg -> const Fido = new pet('Fido');
+1- Create a new pet using Pet() function.
+- eg -> const Fido = new Pet('Fido');
 
 2- Feed your pet using feed() function.
 - eg -> feed(Fido);

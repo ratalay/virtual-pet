@@ -4,8 +4,10 @@ function Pet(name) {
     this.hunger = 0,
     this.fitness = 10
 }
-Pet.prototype.growUp = function (agingBy = 1) {
-    this.age = this.age + agingBy
+Pet.prototype.growUp = function () {
+    this.age += 1;
+    this.hunger += 5;
+    this.fitness -= 3;
 }
 
 
@@ -16,7 +18,7 @@ Pet.prototype.growUp = function (agingBy = 1) {
  
  
  /*if (hungerLevel <= 4) {
-    alert("I'm need food :(")
+    alert("I'm hungry :(")
 } */
 
 
