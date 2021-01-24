@@ -5,13 +5,16 @@ How to grow a pet?
 1- Create a new pet using Pet() function.
 - eg -> const Fido = new Pet('Fido');
 
-2- Feed your pet using feed() function.
-- eg -> feed(Fido);
+2- Grow your pet older with growUp() method.
+- eg -> fido.growUp();
 
-3- Walk your pet using walk() function.
-- eg -> walk(Fido);
+3- Feed your pet using feed() function.
+- eg -> fido.feed();
 
-4- Check your pet's fitness and hunger levels with isOk() function.
-- eg -> isOK(Fido) // This will return I'm hungry if hunger level is above 5/10, it'll return I'm tired if fitness level is below 6/10 and pet me now! if both of the above statements evaluate true at once.
+4- Walk your pet using walk() function.
+- eg -> fido.walk();
+
+5- Check your pet's fitness and hunger levels with checkUp() function.
+- eg -> fido.checkUp() // This will return 'I am hungry' if hunger level is above 5/10, it'll return 'I need a walk' if fitness level is below 3/10 and 'I am hungry AND I need a walk' if both of the above statements evaluate true at once. 'I feel great!' will be returned if none of the above is true
 
 You're encouraged to open issues if you'd like to propose any improvements/feedback.
