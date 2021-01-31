@@ -45,7 +45,7 @@ Pet.prototype.feed = function () {
 
 Pet.prototype.checkUp = function () {
     if(!this.isAlive) {
-        throw new Error ('Your pet is no longer alive :(')
+        throw new Error (`${this.name} is no longer alive :(`)
     }
 if (this.hunger >= hungerThreshold && this.fitness <= tirednessThreshold) {
     return 'I am hungry AND I need a walk'
